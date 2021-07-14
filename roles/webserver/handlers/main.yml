@@ -1,0 +1,5 @@
+---
+# handlers file for webserve
+- name: restart httpd serrvice
+  service: name=httpd state=restarted
+
